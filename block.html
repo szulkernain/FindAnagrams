@@ -1,0 +1,11 @@
+ <!--This is a template html that displays One row of anagrams. First it displays the number of anagrams for this row
+ and then displays the entire row by calling the item directive.-->
+ 
+ <div class="row">
+        
+  <hr />
+  <h3 class="text-center">Anagram count for this group: {{key.count}}</h3>
+  
+  <item-directive data-ng-repeat="item in key.words"></item-directive>
+  
+</div>

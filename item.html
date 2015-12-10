@@ -1,0 +1,6 @@
+<!--This is a template html that displays an individual item (title and image)-->
+
+<div class="col-lg-{{12 / key.count}} col-md-{{12 / key.count}} col-sm-{{12 / key.count}} col-xs-{{12 / key.count}}">
+  <h4 class="text-center">{{data.words[item.index]}}</h4>
+  <img class="text-center img-responsive" data-ng-src="{{data.images[item.index]}}" title="{{data.words[item.index]}}" />
+</div>
